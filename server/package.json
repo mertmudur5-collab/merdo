@@ -1,0 +1,18 @@
+{
+  "name": "gamedeals-server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "string-similarity": "^4.0.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node fetch_and_save.js"
+  }
+}

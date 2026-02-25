@@ -1,0 +1,14 @@
+{
+  "name": "gamedeals-functions",
+  "version": "0.1.0",
+  "main": "index.js",
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "string-similarity": "^4.0.4",
+    "@google-cloud/secret-manager": "^4.8.0"
+  }
+}
